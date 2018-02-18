@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.amaliaintansafura_1202150248_modul2.Main2Activity">
+
+    <TextView
+    android:id="@+id/daftar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    android:layout_alignParentTop="true"
+    android:paddingLeft="10dp"
+    android:text="Identitas Pemesan"
+    android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:ems="15"
+        android:hint="Nama"
+        android:inputType="textCapSentences" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:ems="15"
+        android:hint="Phone"
+        android:inputType="phone" />
+
+
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="182dp"
+        android:ems="15"
+        android:hint="Alamat"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/catatan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="233dp"
+        android:ems="15"
+        android:hint="Catatan"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/catatan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:text="Pilih pesanan"
+        android:onClick="clickPilihPesan"/>
+
+</RelativeLayout>

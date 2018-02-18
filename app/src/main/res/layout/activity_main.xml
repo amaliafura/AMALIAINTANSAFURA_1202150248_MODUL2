@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.amaliaintansafura_1202150248_modul2.MainActivity">
+
+    <TextView
+        android:id="@+id/namaresto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="10dp"
+        android:text="WannaONE JEOJANG"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/logoresto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/pilihmenu"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="40dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/pilihmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="Pilih Menu"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="300dp"
+            android:text="@string/dine_in"
+            android:textSize="18sp"
+            android:onClick="radioClick1"/>
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/radioButton1"
+            android:layout_alignStart="@+id/radioButton1"
+            android:layout_below="@+id/radioButton1"
+            android:text="@string/take_away"
+            android:textSize="18sp"
+            android:onClick="radioClick2"/>
+    </RadioGroup>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="@string/pesan_sekarang"
+        android:onClick="pesan"/>
+
+</RelativeLayout>

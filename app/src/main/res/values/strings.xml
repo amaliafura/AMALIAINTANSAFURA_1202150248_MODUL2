@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AMALIAINTANSAFURA_1202150248_MODUL2</string>
+    <string name="take_away">Take Away</string>
+    <string name="dine_in">Dine In</string>
+    <string name="daftar_menu">Daftar Menu :</string>
+    <string name="pesan_sekarang">Pesan sekarang</string>
+    <string name="bibimbap_order_message">You ordered a donut.</string>
+    <string name="bulgogi_order_message">You ordered an ice cream sandwich.</string>
+    <string name="rameyeon_order_message">You ordered a FroYo.</string>
+    <string-array name="labels_array">
+        <item>Meja 1</item>
+        <item>Meja 2</item>
+        <item>Meja 3</item>
+        <item>Meja 4</item>
+    </string-array>
+</resources>
